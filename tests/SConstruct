@@ -1,0 +1,3 @@
+env = Environment()
+env.Append(CPPPATH = ['../Catch/single_include'])
+env.Program(target='list', source=['list.cpp'])
